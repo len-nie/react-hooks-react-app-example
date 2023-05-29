@@ -1,6 +1,7 @@
 import React from "react";
 import { format } from "date-fns";
 import ExampleComponent from "./ExampleComponent";
+import LeBronLaughingGif from "./LeGif";
 
 // Add your code own within the return statement
 function App() {
@@ -13,9 +14,9 @@ function App() {
         HTML, and also allows us to add in components, which are separate,
         self-contained chunks of JSX.
       </p>
-      <ExampleComponent />
+      <ExampleComponent /> <ExampleComponent />
+      <LeBronLaughingGif />
     </div>
   );
 }
-
 export default App;
